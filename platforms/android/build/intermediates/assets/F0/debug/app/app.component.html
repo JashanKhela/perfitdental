@@ -1,0 +1,20 @@
+<!-- https://docs.nativescript.org/angular/core-concepts/angular-navigation.html#page-router-outlet -->
+    <ActionBar title="Perfit Dental" class="action-bar"></ActionBar>
+    <!-- Your UI components go here -->
+<TabView #tabview>
+  <StackLayout *tabItem="{title: 'Support'}">
+    <textview text="Goodbye!"></textview>
+    <textview text="Maybe!"></textview>
+    <textfield hint="Ask questions here"></textfield>
+  </StackLayout>
+  <stacklayout *tabItem="{title: 'Products'}">
+      <searchbar></searchbar>
+      <Label text="D90 Implant Technology"></Label>
+      <image src="http://perfitsmile.com/wp-content/uploads/2016/04/Implant-Dentures.jpg"></image>
+  </stacklayout>
+  <stacklayout *tabItem="{title: 'Profile'}"> 
+      <Label text="hello world"></Label>
+      <Image src="http://www.perfitdental.com/img/logo-meta.png"></Image>
+      <TextField hint="Test"></TextField>
+  </stacklayout>
+</TabView>
