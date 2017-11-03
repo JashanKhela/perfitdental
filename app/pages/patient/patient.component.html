@@ -1,0 +1,19 @@
+<TabView #tabview>
+
+<StackLayout *tabItem="{title: 'Location'}">
+    <Button class="btn btn-primary btn-active" [text]="buttonText" (tap)="monitor($event)"></Button>
+    <Label text="Direction" textWrap="true" class="m-l-5 m-r-15 m-t-15"></Label>
+    <Label class="input input-border" editable="false" [text]="monitorDirection + '%'"></Label>
+</StackLayout>
+
+<stacklayout *tabItem="{title: 'Patient Stuff'}">
+  <Label text="Have the greatest smile ever"></Label>
+  <image src="http://www.chatelaine.com/wp-content/uploads/2012/07/4cfa8a2042a582675a2930de2e6d.jpg"></image>
+</stacklayout>
+<stacklayout *tabItem="{title: 'Profile'}"> 
+  <Label text="hello world" (tap)= submit() ></Label>
+  <Image src="http://www.perfitdental.com/img/logo-meta.png"></Image>
+  <TextField hint="Test"></TextField>
+</stacklayout>
+
+</TabView></nav>

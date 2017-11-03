@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var setup_component_1 = require("./pages/setup/setup.component");
+var prof_component_1 = require("./pages/professionals/prof.component");
+var patient_component_1 = require("./pages/patient/patient.component");
+exports.routes = [
+    { path: "", component: setup_component_1.setupPage },
+    { path: "prof", component: prof_component_1.profPage },
+    { path: "patient", component: patient_component_1.patientPage }
+];
+exports.navigatableComponents = [
+    setup_component_1.setupPage,
+    prof_component_1.profPage,
+    patient_component_1.patientPage,
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLnJvdXRpbmcuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJhcHAucm91dGluZy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLGlFQUEwRDtBQUMxRCx1RUFBK0Q7QUFDL0QsdUVBQStEO0FBRWxELFFBQUEsTUFBTSxHQUFHO0lBQ3BCLEVBQUUsSUFBSSxFQUFFLEVBQUUsRUFBRSxTQUFTLEVBQUUsMkJBQVMsRUFBRTtJQUNsQyxFQUFDLElBQUksRUFBRSxNQUFNLEVBQUMsU0FBUyxFQUFFLHlCQUFRLEVBQUM7SUFDbEMsRUFBQyxJQUFJLEVBQUUsU0FBUyxFQUFDLFNBQVMsRUFBRSwrQkFBVyxFQUFDO0NBQ3pDLENBQUM7QUFFVyxRQUFBLHFCQUFxQixHQUFHO0lBQ25DLDJCQUFTO0lBQ1QseUJBQVE7SUFDUiwrQkFBVztDQUNaLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBzZXR1cFBhZ2UgfSBmcm9tIFwiLi9wYWdlcy9zZXR1cC9zZXR1cC5jb21wb25lbnRcIjtcclxuaW1wb3J0IHsgcHJvZlBhZ2V9IGZyb20gXCIuL3BhZ2VzL3Byb2Zlc3Npb25hbHMvcHJvZi5jb21wb25lbnRcIjtcclxuaW1wb3J0IHsgcGF0aWVudFBhZ2V9IGZyb20gXCIuL3BhZ2VzL3BhdGllbnQvcGF0aWVudC5jb21wb25lbnRcIjtcclxuXHJcbmV4cG9ydCBjb25zdCByb3V0ZXMgPSBbXHJcbiAgeyBwYXRoOiBcIlwiLCBjb21wb25lbnQ6IHNldHVwUGFnZSB9LFxyXG4gIHtwYXRoOiBcInByb2ZcIixjb21wb25lbnQ6IHByb2ZQYWdlfSxcclxuICB7cGF0aDogXCJwYXRpZW50XCIsY29tcG9uZW50OiBwYXRpZW50UGFnZX1cclxuXTtcclxuXHJcbmV4cG9ydCBjb25zdCBuYXZpZ2F0YWJsZUNvbXBvbmVudHMgPSBbXHJcbiAgc2V0dXBQYWdlLFxyXG4gIHByb2ZQYWdlLFxyXG4gIHBhdGllbnRQYWdlLFxyXG5dOyJdfQ==

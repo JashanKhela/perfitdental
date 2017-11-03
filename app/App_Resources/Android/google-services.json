@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "539232777666",
+    "firebase_url": "https://perfitdental-7951d.firebaseio.com",
+    "project_id": "perfitdental-7951d",
+    "storage_bucket": "perfitdental-7951d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539232777666:android:39ab490b50b9d639",
+        "android_client_info": {
+          "package_name": "org.nativescript.PerfitDental"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539232777666-5mal4g9eava3lgrormk6fihqgfa419e5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYxrci7KzccWDvU6DUQFx7F6Kd_wP-UJ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

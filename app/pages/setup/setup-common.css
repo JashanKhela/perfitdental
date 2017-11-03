@@ -1,0 +1,36 @@
+.bigText {
+    font-size: 72pt;
+    text-align: center;
+    margin: 30;
+    /* opacity: 1; */
+    font-family: "Helvetica";
+    /* color: black; */
+}
+
+/* 
+StackLayout{
+    background-image: url("https://image.freepik.com/free-photo/close-up-of-young-woman-showing-her-teeth-and-tongue_1149-1023.jpg");
+    background-position: -100,0;
+    background-size: cover;
+} */
+
+
+
+button{
+    width: 60%;
+    height: 25%;
+    border-radius: 10;
+    border-color: black;
+    border-width: 2px;
+    margin: 5,10,5,10;
+    font-size: 24pt;
+    color: white;
+    
+}
+
+.redBtn{
+    background-color: lightsalmon;
+}
+.greenBtn{
+    background-color: lightseagreen;
+}
